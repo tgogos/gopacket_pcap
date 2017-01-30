@@ -8,7 +8,7 @@ Source: [http://www.devdungeon.com/content/packet-capture-injection-and-analysis
 
 ```bash
 go get github.com/google/gopacket
-sudo apt-get install libpcap-de
+sudo apt-get install libpcap-dev
 
 # turn promiscuous mode on
 sudo ifconfig eth0 promisc up 
